@@ -1,0 +1,23 @@
+.main {
+  -webkit-column-gap: 3em;
+  -webkit-column-rule: 2px dotted #660066;
+  -webkit-columns: 250px 3;
+}
+
+/* EXTENDED VERSION: 
+-webkit-column-rule-width: 2px;
+-webkit-column-rule-style: dotted;
+-webkit-column-rule-color: orange;
+-webkit-column-count: 3;
+-webkit-column-width: 250px; // like max width, resp
+*/
+
+img {
+  display: block;
+  margin: 1.5em 0;
+  max-width: 100%; /*always takes up max width of it's col*/  
+}
+
+h1 {
+  -webkit-column-span: all;
+}
