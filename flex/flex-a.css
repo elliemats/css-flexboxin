@@ -1,0 +1,22 @@
+.nav {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-between;
+}
+
+.nav3 li:last-child {
+  margin-left: auto;
+}
+
+.nav4 {
+  -webkit-flex-wrap: wrap;
+}
+
+/*overwrite space-between prop*/
+.nav1 {
+  -webkit-justify-content: flex-end;
+}
+
+.nav2 {
+  -webkit-justify-content: center;
+}

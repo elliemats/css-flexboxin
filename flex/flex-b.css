@@ -1,0 +1,45 @@
+.nav,
+.main {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+.nav {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+}
+
+.nav li {
+  -webkit-flex-grow: 1; /* ratio of free space btwn items */ 
+}
+
+.col {
+  -webkit-flex: 1;
+}
+
+.col-c {
+  -webkit-flex: 2; 
+  -webkit-order: -1; /* moves col-c over to beginning */
+}
+
+/* .col-b {
+  -webkit-align-self: center; // vertically centers b
+}
+
+.col-a {
+  -webkit-align-self: flex-end;  // aligns bottom 
+}
+
+side note: -webkit-align-self: stretch; is the default 
+*/
+
+@media screen and (max-width: 999px) {
+  .main {
+    -webkit-flex-direction: column; /* single column under 1000px */
+  }
+}

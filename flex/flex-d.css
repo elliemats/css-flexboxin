@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  flex-wrap: wrap; /*on resize, contents will push to next line as needed*/
+}
+.container-2 {
+   flex-direction: row-reverse; 
+}
