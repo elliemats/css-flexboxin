@@ -22,3 +22,6 @@
 .container-7 {
    justify-content: space-around; /* Same, but now the spacing is evenly distributed with edges */ 
 }
+.container-8 > :first-child {
+   margin-right: auto; /* moves red item to right, all others to left */ 
+}
