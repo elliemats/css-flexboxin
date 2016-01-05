@@ -17,5 +17,8 @@
    height: 280px;
 }
 .container-6 {
-   justify-content: space-between; /* figures out the spacing for you! */ 
+   justify-content: space-between; /* figures out the spacing for you! Alights to start and end */ 
+}
+.container-7 {
+   justify-content: space-around; /* Same, but now the spacing is evenly distributed with edges */ 
 }
