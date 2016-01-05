@@ -4,6 +4,7 @@
 }
 .container-2 {
    flex-direction: row-reverse; 
+   justify-content: center; /* flex-start is the default for jusifty content */
 }
 .container-3 {
    flex-direction: column; 
@@ -14,4 +15,7 @@
 .container-5 {
    flex-direction: column; 
    height: 280px;
+}
+.container-6 {
+   justify-content: space-between; /* figures out the spacing for you! */ 
 }
